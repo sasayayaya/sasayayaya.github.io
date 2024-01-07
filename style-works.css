@@ -1,0 +1,62 @@
+nav{
+    text-align: center;
+    }
+    nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: #333;
+    }
+    nav ul li.current a{
+    color: #F33135;
+    }
+    nav ul li a:hover{
+    color: #E7DA66;
+    }
+
+body{
+    background-color: rgb(246, 153, 119);
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin: 30px 0 50px;
+}
+
+.gallery{
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.gallery img{
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+    transition: 0.7s;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+/*フッター*/
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p{
+    font-size: 10px
+}
