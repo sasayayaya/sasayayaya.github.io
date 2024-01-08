@@ -50,6 +50,18 @@ h1{
     transform: scale(1.1);
 }
 
+@media(max-width:600px){
+    
+    .contents{
+        flex-direction: column;
+    }
+
+    .works .contents .content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
 /*フッター*/
 
 footer{
