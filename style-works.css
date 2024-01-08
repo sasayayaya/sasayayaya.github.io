@@ -50,7 +50,7 @@ h1{
     transform: scale(1.1);
 }
 
-@media(max-width:600px){
+@media(max-width:400px){
     
     .contents{
         flex-direction: column;
