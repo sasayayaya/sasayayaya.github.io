@@ -39,8 +39,7 @@ h1{
 }
 
 .gallery img{
-    display: block;
-    margin: auto;
+    overflow:hidden;
     width: 380px;
     height: 300px;
     object-fit: cover;
