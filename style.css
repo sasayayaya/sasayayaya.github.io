@@ -63,7 +63,7 @@ nav ul li a:hover{
     object-fit: cover;
   }
    
-  @keyframes slideshow{
+  @keyframes.slideshow{
     0%{
       opacity: 0;
     }
