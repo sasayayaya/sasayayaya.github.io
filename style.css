@@ -47,8 +47,8 @@ nav ul li a:hover{
  }
 
 /* メインヴィジュアル */
-
 .mainvisual img{
+    padding-top: 10px;
     height:600px;
     width: 100%;
     object-fit: cover;
@@ -80,7 +80,7 @@ nav ul li a:hover{
     }
   }
    
-  .slide {
+  .slide img {
     object-fit: cover;
     position: absolute;
     top: 50%;
@@ -92,13 +92,21 @@ nav ul li a:hover{
     animation :slideshow 24s linear infinite;
   }
    
-  .slide-img:nth-child(2){
+  .slide img:nth-child(2){
     animation-delay: 8s;
   }
    
-  .slide-img:last-child{
+  .slide img:last-child{
     animation-delay: 16s;
   }
+
+
+@media(max-width:600px){
+    .mainvisual img{
+        height:calc(100vh - 60px);
+
+    }
+}
 
 @media(max-width:600px){
     .mainvisual img{
@@ -108,7 +116,6 @@ nav ul li a:hover{
 }
 
 /*メイン*/
-
 .section-title{
     display: inline-block;
     font-size: 35px;
@@ -264,7 +271,6 @@ a.btn_06:hover span {
 
 
 /*フッター*/
-
 footer{
     text-align: center;
     padding-top: 90px;
