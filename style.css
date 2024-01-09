@@ -10,16 +10,19 @@ body{
     padding: 0 4%;
 }
 
+
 header{
     display: flex;
     height: 60px;
     line-height:60px;
+    
 }
 
-header .site-title img{
-    width:120px;
-    margin-top: 13px;
-}
+header h1 {
+    font-family: "Nikukyu";
+    font-size: 40px;
+    color: orange;
+  }
 
 header nav{
     margin-left:auto;
@@ -39,9 +42,9 @@ header nav ul li a{
     text-decoration:none;
 }
 
-header nav ul li a:hover{
-    opacity:0.7;
-}
+nav ul li a:hover{
+    color: #E7DA66;
+ }
 
 /* メインヴィジュアル */
 
@@ -158,15 +161,17 @@ a{
 .shop{
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 80px;    
+    padding-bottom: 0px;    
 }   
 
 
 /*ボタン*/
-.section .button{
-  max-width: 300px;
+.button{
+    display: block;
+  max-width: 700px;
   margin: 0 auto;
 }
+
 a.btn_06 {
   display: flex;
   justify-content: center;
@@ -191,7 +196,7 @@ a.btn_06 span {
   border: 1px solid #000;
   box-sizing: border-box;
   position: absolute;
-  top: -6px;
+  top: -7px;
   left: -6px;
   transition-duration: 0.2s;
 }
@@ -200,11 +205,24 @@ a.btn_06:hover span {
   top: -1px;
 }
 
+/* 点滅 */
+.blink {
+	animation: blinking 1s ease-in-out infinite alternate;
+    text-align: center;
+    padding-top: 5px;
+}
+ 
+@keyframes blinking {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
 /*フッター*/
 
 footer{
     text-align: center;
-    padding: 10px 0;
+    padding-top: 90px;
 }
 
 footer p{
