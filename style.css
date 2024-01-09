@@ -95,11 +95,11 @@ nav ul li a:hover{
 }
  
 .slide img:nth-child(2) {
-  animation-delay: 8s;
+  animation-delay: 6s;
 }
  
 .slide img:last-child {
-  animation-delay: 16s;
+  animation-delay: 12s;
 }
 
 @media(max-width:600px){
