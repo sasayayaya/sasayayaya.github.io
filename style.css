@@ -61,7 +61,7 @@ nav ul li a:hover{
   overflow: hidden;
 }
  
-@keyframes-slideshow {
+@keyframes slideshow {
   0% {
     opacity: 0;
   }
