@@ -244,11 +244,11 @@ a.btn_22:hover {
 	border: 2px solid #0686b2;
 
 /*フッター*/
-footer{
+.footer{
     text-align: center;
     padding-top: 90px;
 }
 
-footer p{
+.footer p{
     font-size: 10px
 }
