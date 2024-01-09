@@ -29,6 +29,7 @@ header nav{
 }
 
 header nav ul{
+    padding-top: 3px;
     display:flex;
 }
 
