@@ -61,7 +61,7 @@ nav ul li a:hover{
   overflow: hidden;
 }
  
-@keyframes slideshow {
+@keyframes-slideshow {
   0% {
     opacity: 0;
   }
@@ -89,7 +89,7 @@ nav ul li a:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: auto;
+  height: 600;
   opacity: 0;
   animation: slideshow 24s linear infinite;
 }
