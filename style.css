@@ -208,7 +208,7 @@ a{
 .shop{
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 90px;    
+    padding-bottom: 120px;    
 }   
 
 
@@ -245,11 +245,7 @@ a.btn_22:hover {
 
 	
 /*footer*/
-footer{
-    text-align: center;
-    padding-top: 90px;
-}
 
 footer p{
-    font-size: 10px;
+    text-align: center;
 }
