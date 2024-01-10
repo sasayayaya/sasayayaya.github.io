@@ -249,6 +249,7 @@ footer{
     padding-top: 90px;
 }
 
-footer h1{
+footer p{
+    display: block;
     font-size: 10px;
 }
