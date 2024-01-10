@@ -244,7 +244,7 @@ a.btn_22:hover {
 	border: 2px solid #0686b2;
 
 /*footer*/
-footer{
+.footer{
     display: block;
     text-align: center;
     padding-top: 90px;
